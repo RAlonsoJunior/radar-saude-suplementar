@@ -1,0 +1,12 @@
+# ---- Dados: nunca sobem (volume grande + qualquer um reproduz via script) ----
+data/raw/
+data/tmp/
+
+# ---- Python: ambiente virtual e caches ----
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# ---- Credenciais/configurações locais: nunca versionar ----
+*.env
